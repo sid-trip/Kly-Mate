@@ -1,0 +1,23 @@
+# requirements.txt
+
+# Core Web Framework & Server
+fastapi
+uvicorn[standard] # ASGI server for FastAPI, [standard] includes helpful extras
+
+# Data Handling & Numerics
+pandas         # For data manipulation and analysis (DataFrames)
+numpy          # Fundamental package for numerical computing
+
+# External API Calls
+requests       # For making HTTP requests to weather/AQI APIs
+
+# Machine Learning & Model Persistence
+scikit-learn   # For ML algorithms and tools
+joblib         # For saving/loading Python objects (often used for ML models)
+
+# Configuration Management
+python-dotenv  # For loading environment variables from .env file
+
+# Plotting (Useful for analysis, maybe backend generation later)
+matplotlib
+seaborn

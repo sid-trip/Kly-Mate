@@ -1,0 +1,68 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+.env/
+*_env/
+env.bak/
+venv.bak/
+
+# Environment variables file - VERY IMPORTANT FOR SECURITY
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled Python files
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python Notebook Checkpoints
+.ipynb_checkpoints
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Large data files (optional - uncomment if needed)
+# data/*.csv
+# data/large_dataset.parquet
+
+# Saved ML models (optional - can get large)
+app/ml_models/*.joblib
+app/ml_models/*.pkl
+*.onnx
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*~
