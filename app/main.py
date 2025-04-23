@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from app.router import weather
 
-app = FastAPI(Title = "Kly-Mate", description="A weather app", version="0.1.0")
+app = FastAPI(title = "Kly-Mate", description="A weather app", version="0.1.0")
 
 @app.get("/")
 async def root():

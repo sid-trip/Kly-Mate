@@ -35,4 +35,4 @@ class WeatherAQIResponse(BaseModel):
     weather_data_source: str = "OpenWeatherMap" # Identify where data came from
     aqi_data_source: str = "OpenWeatherMap" # Identify where data came from
     error_message: Optional[str] = None # Field to pass errors back if needed
-    
+    icon: Optional[str] = None
