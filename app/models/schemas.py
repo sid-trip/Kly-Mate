@@ -15,7 +15,6 @@ class CurrentWeather(BaseModel):
     pressure: Optional[int] = None
     humidity: Optional[int] = None
     description: Optional[str] = None
-    icon: Optional[str] = None # e.g., '01d' for weather icon
     wind_speed: Optional[float] = None
 
 # Define a model for the current AQI data points
@@ -36,3 +35,4 @@ class WeatherAQIResponse(BaseModel):
     weather_data_source: str = "OpenWeatherMap" # Identify where data came from
     aqi_data_source: str = "OpenWeatherMap" # Identify where data came from
     error_message: Optional[str] = None # Field to pass errors back if needed
+    

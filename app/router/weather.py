@@ -1,12 +1,12 @@
-# app/routers/weather.py
-from fastapi import APIRouter, Query, HTTPException
-from app.services import external_apis # Import your service functions
-from app.models import schemas # Import your Pydantic models
 
-# Create a router object
+from fastapi import APIRouter, Query, HTTPException
+from app.services import external_apis
+from app.models import schemas 
+
+
 router = APIRouter(
-    prefix="/data", # All routes in this file will start with /data
-    tags=["Weather & AQI"] # Group endpoints in the /docs UI
+    prefix="/data", 
+    tags=["Weather & AQI"]
 )
 
 @router.get("/now", response_model=schemas.WeatherAQIResponse)

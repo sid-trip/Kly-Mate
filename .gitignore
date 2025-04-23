@@ -66,3 +66,12 @@ app/ml_models/*.pkl
 # Temporary files
 *.tmp
 *~
+
+#ml data
+/data
+
+# ML models
+app/ml_models/
+
+#dummy
+create_dummy_model.py
