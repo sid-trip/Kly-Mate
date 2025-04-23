@@ -56,9 +56,9 @@ ehthumbs.db
 # data/large_dataset.parquet
 
 # Saved ML models (optional - can get large)
-app/ml_models/*.joblib
-app/ml_models/*.pkl
-*.onnx
+# app/ml_models/*.joblib
+# app/ml_models/*.pkl
+# *.onnx
 
 # Log files
 *.log
