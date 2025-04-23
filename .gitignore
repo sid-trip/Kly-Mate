@@ -69,7 +69,3 @@ app/ml_models/*.pkl
 
 #ml data
 /data
-
-
-#dummy
-create_dummy_model.py
