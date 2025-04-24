@@ -65,7 +65,8 @@ Klymate_backend/
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/Kly-mate.git](https://github.com/YourUsername/Kly-mate.git) # Replace with your repo URL
+    git clone [https://github.com/YourUsername/Kly-mate.git](https://github.com/YourUsername/Kly-mate.git)
+    "
     cd Klymate_backend
     ```
 
